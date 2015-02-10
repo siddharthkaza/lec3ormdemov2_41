@@ -3,6 +3,8 @@ class AdminController < ApplicationController
   end
 
   def list
+    #no array!
+    #no objects of class
     @courses = Course.where("instructor='John'")
   end
 end
