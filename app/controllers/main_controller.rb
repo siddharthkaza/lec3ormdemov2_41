@@ -5,8 +5,6 @@ class MainController < ApplicationController
   def list
     #no array!
     #no objects of class
-    @courses = Course.
-
-    #@courses = Course.where("instructor='John'")
+    @courses = Course.where("instructor='John'")
   end
 end
