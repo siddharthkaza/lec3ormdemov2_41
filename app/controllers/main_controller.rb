@@ -3,8 +3,8 @@ class MainController < ApplicationController
   end
 
   def list
-    #no array!
     #no objects of class
+    #no array!
     @courses = Course.where("instructor='John'")
   end
 end
