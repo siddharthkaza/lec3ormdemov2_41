@@ -14,3 +14,7 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+#ignore gemset files - will not port
+.ruby-gemset
+.ruby-version
